@@ -1,0 +1,112 @@
+:root {  
+    font-family: "Arial", sans-serif;
+    color: gold;
+    --font-size: 1em;
+   
+  }
+  body {
+    background-color: rgba(20, 16, 16, 0.904);
+  }
+  
+  header { 
+    font-size: 2em;
+    text-align: center;
+  }
+
+  a{
+      text-decoration: none;
+      padding: 24px;
+      color: black;
+  }
+
+  a:hover{
+    color: red;
+  }
+  h2{
+    text-align: center;
+  }
+
+  .schauerOrglinks{
+    display: inline-flex;
+    list-style-type: none;
+    background-color: silver;
+    border: 5px solid black;  
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+
+  .photo {
+    margin: 60px;
+    padding: 45px;
+    text-align: center;
+  }
+
+
+  .textBoxCenter {  
+    font-size: 1.5em;   
+    color: black;
+    font-family: "Gill Sans", "Arial", sans-serif;
+    margin-top: 45px;
+    margin: auto;
+    margin-bottom: 45px;
+    width: 425px;
+    padding: 20px 20px 20px 20px;
+    border-width: 10px;
+    border-color: red;
+    border-style: inset;
+    text-align: center;
+    background-color:silver;
+}
+
+.textBoxLeft {  
+    font-size: 1.7em;   
+    color: black;
+    font-family: "Gill Sans", "Arial", sans-serif;
+    text-align: left;
+    margin: 30px;
+    margin-bottom: 45px;
+    padding: 20px 20px 20px 20px;
+    border-width: 10px;
+    border-color: red;
+    border-style: inset;
+    text-align: center;
+    background-color:silver;
+}
+
+footer {
+    margin-top: 35px;
+    text-align: center;
+}
+
+input[type=submit] {
+  width: 250px;
+  height: 100px;
+  font: 1.7em Times New Roman;
+  border: 1px solid #aaa;
+  background-color: rgba(13, 131, 199, 0.507);
+  color: black;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: rgba(3, 77, 15, 0.555);
+}
+
+input[type=reset] {
+  width: 250px;
+  height: 100px;
+  font: 1.7em Times New Roman;
+  border: 1px solid #aaa;
+  background-color: rgba(223, 13, 66, 0.507);
+  color: black;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=reset]:hover {
+  background-color: rgba(3, 77, 15, 0.555);
+}
